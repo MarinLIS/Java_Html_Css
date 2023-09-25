@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color:chocolate;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      
+}
+
+body {
+    background-color: beige;
+    width: 1200px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 5px solid brown;
+}
+
+img {
+    
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+a {
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+}
+
+h4 {
+    text-align: center;
+}
+button {
+    color: brown;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(219, 202, 12);
+}
+
