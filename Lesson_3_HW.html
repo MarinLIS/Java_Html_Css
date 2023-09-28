@@ -1,0 +1,22 @@
+<!-- Создать страницу, которая спрашивает имя у 
+пользователя и выводит его с помощью функции. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_3</title>
+</head>
+<body>
+    <script>
+        const firstName = prompt("Введите Ваше имя", "Имя")
+        const lastName = prompt("Введите Вашу фамилию", "Фамилия")
+
+        function showName(name1, name2) {
+            alert(`Ваше полное имя: ${name1+" "+ name2}`)
+        }
+        showName(firstName, lastName)
+    </script>
+    
+</body>
+</html>
